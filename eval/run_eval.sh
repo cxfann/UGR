@@ -6,7 +6,7 @@ RESULTS_DIR="./results/$DATASET"
 
 PORT=$((RANDOM % 10000 + 10000))
 
-torchrun --nproc_per_node=8 --master_port=$PORT ./test/test.py \
+torchrun --nproc_per_node=8 --master_port=$PORT ./eval/test.py \
     --ckpt_path YOUR_SFT_CKPT_PATH \
     --ckpt_path2 YOUR_RL_CKPT_PATH \
     --base_model YOUR_BASE_MODEL_PATH \
