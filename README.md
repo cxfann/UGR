@@ -79,11 +79,13 @@ Parts of our implementation build upon, or are inspired by, the following open-s
 If you find this repository useful, please consider giving it a star and citing our paper:
 
 ```bibtex
-@article{fan2026uncertainty,
+@inproceedings{fan2026uncertainty,
   title={Uncertainty-aware Generative Recommendation},
   author={Fan, Chenxiao and Gao, Chongming and Gong, Yaxin and Liu, Haoyan and Feng, Fuli and He, Xiangnan},
-  journal={arXiv preprint arXiv:2602.11719},
-  year={2026}
+  booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD '26)},
+  pages={1015--1026},
+  year={2026},
+  doi={10.1145/3770855.3817975}
 }
 ```
 
